@@ -1,4 +1,4 @@
 \babel@toc {russian}{}
-\contentsline {section}{\numberline {1.\relax }\href {https://github.com/julproh}{Решение квадратных уравнений}}{2}{section.1}%
+\contentsline {section}{\numberline {1.\relax }\href {https://github.com/julproh/5_sem/tree/main/NetCracker/Java_Basics_and_OOP/first_task/equations}{Решение квадратных уравнений}}{2}{section.1}%
 \contentsline {section}{\numberline {2.\relax }\href {https://github.com/julproh}{Игра в кости}}{3}{section.2}%
 \contentsline {section}{\numberline {3.\relax }\href {https://github.com/julproh}{Адрес человека}}{3}{section.3}%
