@@ -1,0 +1,7 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1.\relax }Цель работы}{2}{section.1}%
+\contentsline {section}{\numberline {2.\relax }\href {https://github.com/julproh/5_sem/tree/main/NetCracker/Java_Basics_and_OOP/practise_tasks/second_task/voice}{Voice}}{2}{section.2}%
+\contentsline {section}{\numberline {3.\relax }\href {https://github.com/julproh/5_sem/tree/main/NetCracker/Java_Basics_and_OOP/practise_tasks/second_task/bones}{Игра в кости}}{3}{section.3}%
+\contentsline {section}{\numberline {4.\relax }\href {https://github.com/julproh/5_sem/tree/main/NetCracker/Java_Basics_and_OOP/practise_tasks/second_task/extended}{Extended Class}}{5}{section.4}%
+\contentsline {section}{\numberline {5.\relax }\href {https://github.com/julproh/5_sem/tree/main/NetCracker/Java_Basics_and_OOP/practise_tasks/second_task/black}{Black}}{7}{section.5}%
+\contentsline {section}{\numberline {6.\relax }Вывод}{8}{section.6}%
