@@ -1,0 +1,290 @@
+\documentclass[a4paper]{article}
+\usepackage[warn]{mathtext}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage{indentfirst}
+\usepackage{misccorr}
+\usepackage{subcaption}
+\captionsetup{compatibility=false}
+\usepackage{geometry}
+\geometry{verbose,a4paper,tmargin=2cm,bmargin=2cm,lmargin=1.5cm,rmargin=1.5cm}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{floatflt}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{lscape}
+\usepackage{hvfloat}
+\usepackage{amsfonts}
+\usepackage{euscript}
+\usepackage{newunicodechar}
+\usepackage{booktabs}
+
+\begin{document}
+\newcommand{\apple}{\char"F8FF}
+
+
+
+\begin{titlepage}
+    \vspace*{4cm}
+	\centering
+    {\scshape\LARGE Московский физико-технический институт\par}
+	\vspace{1cm}
+	{\scshape\Large Лабораторная работа по общей физике № 4.2\par}
+	\vspace{1cm}
+    {\huge\bfseries  Исследование энергетического спектра $\beta$-частиц и определение их 
+    максимальной энергии при помощи магнитного спектрометра \par}
+	\vspace{2cm}
+	\vfill
+\begin{flushright}
+	{\large Выполнила студентка Б01-907}\par
+	\vspace{0.3cm}
+	{\LARGE Юлия Прохорова}
+\end{flushright}
+	
+	\vfill
+Долгопрудный, 2021
+% Bottom of the page
+\end{titlepage}
+
+\pagestyle{fancy} 
+\fancyhead[L]{№ 4.2}
+\fancyhead[R]{Юля Прохорова, Б01-907}
+\fancyhead[C]{}
+\fancyfoot[C]{ \noindent\rule{\textwidth}{0.4pt} \thepage }
+
+\tableofcontents
+
+\newpage
+
+
+\section{Цель работы}
+
+С помощью магнитного спектрометра исследовать энергетический спектр $\beta$-частиц при распаде
+ядер $^{137}Cs$ и определение их максимальной энергии.
+
+\section{Оборудование}
+Магнитный спектрометр с короткой линзой, высоковольтный и низковольтный выпрямители, форвакуумный насос и вакууметр, ЭВМ.
+
+\section{Теория}
+
+\textbf{Бета-распадом} называется самопроизвольное превращение ядер, при котором их массовое
+число не меняется, а заряд увеличивается или уменьшается на единицу. В нашем случае имеем дело 
+с электронным распадом:
+$${_Z^A}X \rightarrow {_{Z+1}^A}X + e^- + \tilde{\nu}$$
+
+Освобождающаяся энергия делится между электроном и антинейтрино, дочернему ядру достается очень мало.
+
+Вид спектра $\beta$-частиц показан на рис.\ref{p1}. $W(p_e)dp_e$ - вероятность того, что $\beta$-частица получит импульс в интервале $(p_e, \; p_e+dp_e)$.
+
+\begin{wrapfigure}[17]{l}{145pt}
+    \includegraphics[scale = 0.2]{p1.png}
+    \caption{Форма спектра $\beta$-частиц при разрешенных переходах}
+    \label{p1}
+\end{wrapfigure}
+
+Вероятность $\beta$-распада пропорциональна фазовому объему в векторном пространстве имупульсов
+электронов и антинейтрино. Интервалу $(p_e, \; p_e+dp_e)$ соответсввет шаровой слой объема 
+$4\pi p_e^2 dp_e$. В пространстве импульсов, уносимых антинейтрино, выделятеся шаровой слой 
+площадью $4 \pi p_{\nu}^2$, значит:
+
+\begin{equation}
+    W(p_e) dp_e \propto p_e^2 p_{\nu}^2 dp_e 
+    \label{eq1}
+\end{equation}
+
+Выразим в этом соотношении $p_{\nu}$ через $p_e$. Масса антинейтрино равна нулю, значит:
+
+\begin{equation}
+    p_{\nu} = E_{\nu} / c = (T_{max} - T_e)/c
+    \label{eq2}
+\end{equation}
+
+$E_{\nu}$ - кинетическая энергия антинейтрино, $T_{max}$ - масимально возможная кнетическая энергия
+электрона. $T_e$ - фактическая энергия электрона. Подставляя \ref{eq2} в \ref{eq1} получим:
+
+\begin{equation}
+    W(p_e)dp_e \propto p_e^2 (T_{max} - T_e)^2 dp_e
+    \label{eq3}
+\end{equation}
+
+Кинетическая энергия электрона и его импульс связаны:
+
+\begin{equation}
+    T_e = \sqrt{p_e^2 c^2 + m_e^2 c^4} - m_e c^2
+    \label{eq4}
+\end{equation}
+
+Отсюда:
+
+\begin{equation}
+    T_{max} - T_e = c (\sqrt{p_{max}^2 + m_e^2 c^2} - \sqrt{p_e^2 + m_e^2 c^2})
+    \label{eq5}
+\end{equation}
+
+Уравнение (\ref{eq5}) описывает спектр как широкий колокол (рис.\ref{p1}) 
+
+Дочерние ядра нередко бывают возбужденными, поэтому они могут излучать $\gamma$-квант или 
+передавать избыток электрону на внутренней оболочке. Такие излучаемые электроны называются 
+\textbf{конверсионными}. На спектре  (рис.\ref{p1}) видна монохроматическая линия, ширина
+которой обусловлена лишь разрешающей способностью спектрометра.
+
+\section{Экспериментальная установка}
+
+Энергию частиц определяют с помощью $\beta$-спектрометра. В работе используется 
+магнитный спеткрометр с "короткой линзой", сцинтиллятором и ФЭУ. По расчету, 
+тонкая катушка эквивалент на линзе:
+
+\begin{equation}
+    \frac{1}{f} \varpropto \frac{I^2}{p_e^2}
+    \label{eq6}
+\end{equation}
+
+\begin{figure}[h]
+	\begin{center}
+	\begin{minipage}[h]{0.45\linewidth}
+	\includegraphics[width=1\linewidth]{p2.png}
+	\caption{Схема $\beta$-спектрометра с короткой магнитной линзой} 
+    \label{p2}
+	\end{minipage}
+	\hfill 
+	\begin{minipage}[h]{0.45\linewidth}
+	\includegraphics[width=1\linewidth]{p3.png}
+	\caption{Блок-схема измерительного комлпекса}
+	\label{p3}
+	\end{minipage}
+	\end{center}
+\end{figure}
+
+При заданной силе тоув на входное окно счетчика фокусируются электоны с 
+определенным значением импульса. Импульс сфокусированнх электонов пропорционален 
+величине тока I:
+
+\begin{equation}
+    p_e = k\cdot I
+    \label{eq7}
+\end{equation}
+
+Константа прибора k определяется по известной конверсионной линии.
+
+Линза обладает абберацией, поэтому установлены кольцевые диафрагмы, ограничивающие
+углы вылетов электронов. Также установлен свинцовый фильтр, сдерживающий $\gamma$-кванты 
+и электроны, летящие прямо. Величина $\Delta p_e$ - разрешающая способность.
+
+Рассмотрим связь между числом частиц, регистрируемых установкой, и функцией $W(p_e)$, 
+определяемой формулой (\ref{eq3}):
+
+\begin{equation}
+    N(p_e) \approx W(p_e) \Delta p_e 
+    \label{eq8}
+\end{equation}
+
+Фокус линзы зависит от импульса, частицы проходят мимо при больших $\Delta f$, 
+продиффиренцируем (\ref{eq6})
+
+\begin{equation}
+    \Delta p_e = \frac{1}{2} \frac{\Delta f}{f} p_e
+    \label{eq9}
+\end{equation}
+
+Таким образом, ширина интервала $\Delta p_e$ пропорциональна импульсу. Подставим 
+(\ref{eq9}) в (\ref{eq8}):
+
+\begin{equation}
+    N(p_e) = C \cdot W(p_e) p_e
+    \label{eq10}
+\end{equation}
+
+где С - некоторая константа.
+
+Давление в спектрометре поддерживается на уровне 0.1 Торр и измеряется вакууметром.
+Откачка освществляется форвакуумным насосом. Высокое напряжение на ФЭУ подается
+от стабилизированного выпрямителя.
+
+
+\section{Ход работы}
+
+\begin{enumerate}
+    \item Включаем пересчетный прибор, высоковольтный выпрямитель и вакууметр. Откачиваем давление форвакуумным насосом.
+    \item Включаем рабочее напряжение на ФЭУ.
+    \item Убеждаемся, что спектрометр корректно работает, для этого увеличиваем ток в катушке, мы должны наблюдать силный рост счетов с повышением тока.
+    \item Проведем измерения в интервале от 0.1 до 3.7А с шагом 0.1А, каждое измерение длительностью $t = 100с$.
+    \item Измерим фоновый счет спектрометра при отсутствующем и максимальном токе в линзе. Составим линейную зависимость.
+    \item Занесем данные в таблицу \ref{t1} и произведем необходимые рассчеты.
+
+\begin{center}
+    \input{table_1.tex}
+\end{center}
+
+\end{enumerate}
+
+\newpage
+
+\section{Обработка результатов}
+
+\begin{enumerate}
+    \item Построим график остчетов от тока в катушке. 
+    \begin{figure}[H]
+        \begin{center}
+        \includegraphics[scale = 0.54]{N(I).png}
+        \caption{N(I)}
+        \label{g1}
+        \end{center}
+    \end{figure}
+
+    По значению $p_{\text{конв}}\cdot c = 1013,5$кэВ по формуле (\ref{eq7}) определим константу прибора
+    $k \approx 316,7$
+
+    Построим графики N(T) и $N(p_e)$
+
+    \begin{figure}[h]
+        \begin{center}
+        \begin{minipage}[h]{0.47\linewidth}
+        \includegraphics[width=1\linewidth]{N(T).png}
+        \caption{} 
+        \label{N(T)}
+        \end{minipage}
+        \hfill 
+        \begin{minipage}[h]{0.47\linewidth}
+        \includegraphics[width=1\linewidth]{N(p).png}
+        \caption{}
+        \label{N(p)}
+        \end{minipage}
+        \end{center}
+    \end{figure}
+
+    \item Определим $T_{max}$ с помощью графика Ферми. Подставим в (\ref{eq3}) значение $W(p_e)$
+    из (\ref{eq10}) и разделим на $\Delta p_e$:
+
+    \begin{equation}
+        \sqrt{N(p_e)}\; / \; p^{3/2} \propto T_{max} - T
+        \label{eq11}
+    \end{equation}
+
+    \begin{figure}[H]
+        \begin{center}
+        \includegraphics[scale = 0.7]{mkFermi.png}
+        \caption{График Ферми}
+        \label{g2}
+        \end{center}
+    \end{figure}
+
+    По графику определим значение $T_{max} = 604.18 \pm 13.44\; \text{эВ} \;(2.22\%)$
+
+\end{enumerate}
+
+\section{Вывод}
+
+В ходе работы было исследовано явление $\beta$-распада $^{137}Cs$. В спектр попали электроны, 
+образованные в паре с антинейтрино при распаде, так же конверсионные электроны, испускаемые
+возбужденными вторичными ядрами. С помощью графика Ферми $\sqrt{N(p_e)}\; / \; p^{3/2} \propto T_{max} - T$ 
+было определено максимальное значение кинетической энергии $T_{max} = 604.18 \pm 13.44\; \text{эВ} \;(2.22\%)$.
+
+\section{Литература}
+Игошин Ф.Ф., Самарский Ю.А., Ципенюк Ю.М.  - Лабораторный практикум по общей физике: Учеб. пособие для вузов. Т. 3 Квантовая физика. 
+
+\end{document}

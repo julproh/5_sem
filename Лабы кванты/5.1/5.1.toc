@@ -1,0 +1,10 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1.\relax }Цель работы}{2}{}%
+\contentsline {section}{\numberline {2.\relax }Теория}{2}{}%
+\contentsline {subsection}{\numberline {2.1.\relax }Фотоэлектрическое поглощение}{2}{}%
+\contentsline {subsection}{\numberline {2.2.\relax }Комптоновское рассеяние}{3}{}%
+\contentsline {subsection}{\numberline {2.3.\relax }Генерация электрон-позитронных пар}{3}{}%
+\contentsline {subsection}{\numberline {2.4.\relax }Полный коэффициент ослабления}{3}{}%
+\contentsline {section}{\numberline {3.\relax }Экспериметнальная установка}{6}{}%
+\contentsline {section}{\numberline {4.\relax }Ход работы}{6}{}%
+\contentsline {section}{\numberline {5.\relax }Вывод}{12}{}%

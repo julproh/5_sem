@@ -1,0 +1,9 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1.\relax }Цель работы}{2}%
+\contentsline {section}{\numberline {2.\relax }Оборудование}{2}%
+\contentsline {section}{\numberline {3.\relax }Теория}{2}%
+\contentsline {section}{\numberline {4.\relax }Экспериментаьная установка}{3}%
+\contentsline {section}{\numberline {5.\relax }Ход работы}{4}%
+\contentsline {section}{\numberline {6.\relax }Обработка результатов}{5}%
+\contentsline {section}{\numberline {7.\relax }Вывод}{6}%
+\contentsline {section}{\numberline {8.\relax }Литература}{6}%

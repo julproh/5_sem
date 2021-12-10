@@ -1,0 +1,11 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1.\relax }Цель работы}{2}{}%
+\contentsline {section}{\numberline {2.\relax }Оборудование}{2}{}%
+\contentsline {section}{\numberline {3.\relax }Теория}{2}{}%
+\contentsline {section}{\numberline {4.\relax }Экспериментальная установка}{4}{}%
+\contentsline {section}{\numberline {5.\relax }Ход работы}{4}{}%
+\contentsline {subsection}{\numberline {5.1.\relax }Изучение работы оптического пирометра}{4}{}%
+\contentsline {subsection}{\numberline {5.2.\relax }Измерение яркостной температуры накаленных тел}{5}{}%
+\contentsline {subsection}{\numberline {5.3.\relax }Проверка закона Стефана-Больцмана}{5}{}%
+\contentsline {subsection}{\numberline {5.4.\relax }Измерение яркостной температуры неоновой лампочки}{7}{}%
+\contentsline {section}{\numberline {6.\relax }Вывод}{7}{}%

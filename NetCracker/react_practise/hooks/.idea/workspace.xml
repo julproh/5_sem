@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2667cb98-fa30-4f39-bfff-cdfafcd8942c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../factory/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../factory/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../factory/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../factory/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../factory/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../factory/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../factory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../factory/src/Coffe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../factory/src/FKapuchino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../factory/src/FLatte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../factory/src/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../factory/src/Kapuchino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../factory/src/Latte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../factory/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/javascr.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/out/production/javascr/arrow_functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/out/production/javascr/let_const.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/arrow_functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/desruction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/let_const.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/massive_desrt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/modules2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/moduls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/object_spread.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/objects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/parametrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/prototypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/rest_parametr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/spread.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javascr/src/template_str.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/planets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/use-state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/useContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/useEffect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/app-header/app-header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/app-header/app-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/app-header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/app/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/item-status-filter/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/item-status-filter/item-status-filter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/item-status-filter/item-status-filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/search-panel/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/search-panel/search-panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/search-panel/search-panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/todo-list-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/todo-list-item/todo-list-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/todo-list-item/todo-list-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/todo-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/todo-list/todo-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/components/todo-list/todo-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third/todo/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seminar_practise/src/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seminar_practise/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seminar_practise/src/Prot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../seminar_practise/src/Singleton.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="20Jn4wWccIfa70hPX52euiZnlDc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="hooks" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2667cb98-fa30-4f39-bfff-cdfafcd8942c" name="Changes" comment="" />
+      <created>1635771374225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635771374225</updated>
+      <workItem from="1635771375763" duration="671000" />
+      <workItem from="1635772096310" duration="24000" />
+      <workItem from="1635772167752" duration="10928000" />
+      <workItem from="1636047326207" duration="644000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
